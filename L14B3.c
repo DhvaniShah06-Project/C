@@ -1,4 +1,3 @@
-
 //Ascending Order
 #include <stdio.h>
 void main(){

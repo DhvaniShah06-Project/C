@@ -3,9 +3,9 @@
 void main(){
     int a;
     printf("Enter a from 1 to 7 ");
-    printf(\n"Enter a : ");
+    printf("\nEnter a : ");
     scanf("%d",&a);
-    switch(a){
+    switch(a%7){
         case 1:
         printf("MONDAY");
         break;
@@ -27,6 +27,6 @@ void main(){
         case 7:
         printf("SUNDAY");
         break;
-        default: printf("PLEASE ENTER VALUE FROM 1 TO 7") ;// not compulsory
+      
     }
 }
